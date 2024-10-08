@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var color: Color = .red
+    
     var body: some View {
         VStack {
             Image(systemName: "heart.fill")
@@ -19,9 +21,11 @@ struct ContentView: View {
             } label: {
                 Text("Subscribe now!")
             }
-
+            Rectangle()
+                .fill(color)
             
         }
+        .padding()
     }
 }
 
