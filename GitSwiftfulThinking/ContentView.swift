@@ -14,6 +14,12 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .foregroundStyle(.blue)
             Text("Swiftful!")
+            Button {
+                //something
+            } label: {
+                Text("Subscribe now!")
+            }
+
             
         }
     }
