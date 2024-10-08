@@ -18,6 +18,8 @@ struct ContentView: View {
             Text("Swiftful!")
             Button {
                 //something
+                let newColor = Color(red: Double.random(in: 0..<1), green: Double.random(in: 0..<1), blue: Double.random(in: 0..<1))
+                color = newColor
             } label: {
                 Text("Subscribe now!")
             }
