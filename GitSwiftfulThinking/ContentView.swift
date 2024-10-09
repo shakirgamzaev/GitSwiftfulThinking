@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Image(systemName: "heart.fill")
+            Image(systemName: "bolt.fill")
                 .font(.largeTitle)
                 .foregroundStyle(.blue)
             Text("Swiftful!")
