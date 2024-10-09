@@ -11,7 +11,7 @@ import SwiftUI
 struct GitSwiftfulThinkingApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MessageView()
         }
     }
 }
